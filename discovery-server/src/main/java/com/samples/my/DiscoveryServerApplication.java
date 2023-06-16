@@ -10,6 +10,6 @@ public class DiscoveryServerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DiscoveryServerApplication.class, args);
-		System.out.println("test git 3");
+		System.out.println("test git 8");
 	}
 }
