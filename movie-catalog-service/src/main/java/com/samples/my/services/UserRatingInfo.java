@@ -49,7 +49,7 @@ public class UserRatingInfo {
 		ResponseEntity<UserRating> restExchange = restTemplate.exchange(
 				"http://RATINGS-DATA-SVC/ratingsdata/users/{userId}", HttpMethod.GET, null, UserRating.class, userId);
 		UserRating ratings = restExchange.getBody();
-		System.out.println("testing");
+		System.out.println("testing  ..........");
 		return ratings;
 	}
 
