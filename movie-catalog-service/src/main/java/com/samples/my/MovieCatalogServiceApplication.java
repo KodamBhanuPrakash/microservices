@@ -23,6 +23,6 @@ public class MovieCatalogServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MovieCatalogServiceApplication.class, args);
-		System.out.println("test 7");
+		System.out.println("test 11111111111");
 	}
 }
